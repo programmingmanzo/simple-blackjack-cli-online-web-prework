@@ -38,8 +38,6 @@ end
     end
     if user_input == "h"
         current_card_value += deal_card
-        elsif user_input == "s"
-        prompt_user
     end
     return current_card_value
 end
