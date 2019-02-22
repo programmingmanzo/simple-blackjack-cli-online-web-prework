@@ -57,6 +57,7 @@ def runner
   until current_card_value > 21
   current_card_value = hit?(card_total)
 end
+end
 
 
 
