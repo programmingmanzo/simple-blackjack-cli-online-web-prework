@@ -1,4 +1,4 @@
-def welcome
+jdef welcome
   puts "Welcome to the Blackjack Table"
 end
 
@@ -53,11 +53,8 @@ end
 
 def runner
   welcome
-  initial_round
-  hit?(card_total)
-  
-  until current_card_value > 21
-  hit?()
 end
+
+
 
 
